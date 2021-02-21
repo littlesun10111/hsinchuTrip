@@ -1,0 +1,27 @@
+.App {
+  font-family: "Lato", "Noto Sans TC", sans-serif;
+  text-align: center;
+  color: #825b44;
+}
+:root {
+  --text: #825b44;
+  --yellow: #fff8d3;
+  --red: #ad0030;
+  --primary: #4fad4e;
+  --dark: #539447;
+}
+.navFixed {
+  z-index: 99999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0;
+  width: 100%;
+  opacity: 0.94;
+  background: #539447;
+}
+.scroll {
+  position: fixed;
+  transition: opacity 0.5s ease-out;
+}
